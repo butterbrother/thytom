@@ -1,5 +1,5 @@
 # thytom
-Database client for bulk export data.  
+Database client for bulk export data. [Страница на русском](https://github.com/butterbrother/thytom/wiki/ru:README)  
 
 This client processes a set of requests from sql-files. Each query can be used substitution template which in turn receives from another file ("substitution file"). Each request will be executed sequentially for each substitution. The result of each request remains in own file.
 
@@ -177,3 +177,7 @@ Default - UTF-8 (if not set)
   </tr>
 </tbody>
 </table>
+
+### Database drivers  
+Jars of database drivers put info "lib" directory. Its automatically activate and use on application startup.  
+Name of DB driver set in configuration file, option - `db.driver`.
