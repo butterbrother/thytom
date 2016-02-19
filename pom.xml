@@ -7,7 +7,7 @@
     <groupId>com.github.butterbrother</groupId>
     <artifactId>thytom</artifactId>
     <name>thytom</name>
-    <version>0.1-aplha</version>
+    <version>0.2-beta</version>
 
     <dependencies>
         <dependency>
