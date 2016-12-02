@@ -3,6 +3,11 @@ Database client for bulk export data. [Страница на русском](htt
 
 This client processes a set of requests from sql-files. Each query can be used substitution template which in turn receives from another file ("substitution file"). Each request will be executed sequentially for each substitution. The result of each request remains in own file.
 
+<a href="https://scan.coverity.com/projects/butterbrother-thytom">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/11036/badge.svg"/>
+</a>  
+
 ## Usage  
 ### Settings
 Connection and encoding settings contains in configuration file, conf/thyton.properties.  
